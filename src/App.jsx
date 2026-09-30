@@ -1,4 +1,6 @@
 import { useState } from "react";
+import pharmacistLogin from "./assets/pharmacist-login.png";
+import reactApp from "./assets/react-app.png";
 import "./App.css";
 
 const projects = [
@@ -75,6 +77,18 @@ function Icon({ name, size = 18 }) {
 }
 
 function ProjectPreview({ type }) {
+  const screenshot = type === "pharmacy" ? pharmacistLogin : type === "react" ? reactApp : null;
+
+  if (screenshot) {
+    const alt = type === "pharmacy" ? "Pharmacist Login project screen" : "React App project screen";
+
+    return (
+      <div className="preview screenshot-preview">
+        <img src={screenshot} alt={alt} />
+      </div>
+    );
+  }
+
   if (type === "pharmacy") {
     return (
       <div className="preview pharmacy-preview">
