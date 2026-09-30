@@ -1711,6 +1711,127 @@
   );
 }
 
+.wordmark-icon {
+  border-color: rgba(89, 201, 255, 0.44);
+  background: linear-gradient(145deg, rgba(50, 147, 255, 0.2), rgba(76, 218, 255, 0.09));
+  color: #bdeeff;
+}
+.wordmark-last,
+.hero-interests > span svg,
+.scroll-hint:hover,
+.art-caption span,
+.about-github:hover {
+  color: #78d9ff;
+}
+.nav-links .nav-contact {
+  border-color: rgba(92, 197, 255, 0.3);
+  background: linear-gradient(110deg, rgba(40, 135, 237, 0.15), rgba(67, 209, 255, 0.08));
+}
+.hero-glow-one {
+  background: rgba(42, 132, 255, 0.16);
+}
+.hero-glow-two {
+  background: rgba(52, 206, 255, 0.13);
+}
+.hero-copy h1 > span,
+.section-heading h2 > span,
+.about-copy h2 > span {
+  background: linear-gradient(105deg, #80d8ff 6%, #55b8ff 51%, #a0f0ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.primary-button {
+  border-color: rgba(118, 220, 255, 0.34);
+  background: linear-gradient(108deg, #1469c9 0%, #168cd7 52%, #2bbcdc 100%);
+  box-shadow: 0 5px 23px rgba(33, 152, 236, 0.2);
+}
+.primary-button:hover {
+  box-shadow: 0 8px 27px rgba(55, 183, 255, 0.36);
+}
+.art-sun {
+  background: radial-gradient(circle at 37% 32%, rgba(174, 238, 255, 0.9), rgba(59, 159, 241, 0.81) 33%, rgba(22, 104, 194, 0.77) 63%, rgba(24, 150, 212, 0.75) 80%, rgba(71, 222, 240, 0.86));
+  box-shadow: 0 0 40px rgba(50, 180, 255, 0.3), inset -15px -20px 42px rgba(10, 51, 112, 0.28), inset 9px 8px 24px rgba(188, 242, 255, 0.33);
+}
+.art-ring,
+.art-ring-three {
+  border-color: rgba(147, 222, 255, 0.46);
+}
+.art-ring-two {
+  border-color: rgba(99, 211, 255, 0.46);
+}
+.art-orbit,
+.star-one,
+.art-caption {
+  color: #c5f3ff;
+}
+.art-orbit {
+  background: #b9f1ff;
+  box-shadow: 0 0 16px 4px rgba(83, 208, 255, 0.76);
+}
+.orbit-three {
+  background: #b9f1ff;
+}
+.scroll-line::after,
+.hero-bottom-glow {
+  background: linear-gradient(90deg, #36b7ff, #77e1ff);
+}
+.project-card:hover,
+.project-card:focus-within {
+  border-color: rgba(93, 198, 255, 0.46);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.24), 0 0 27px rgba(53, 172, 240, 0.13);
+}
+.project-type > span,
+.projects-footnote i {
+  background: #55c7ff;
+  color: #72ddff;
+  box-shadow: 0 0 8px rgba(74, 199, 255, 0.46);
+}
+.project-link,
+.about-github > svg {
+  color: #8bdcff;
+}
+.about-art {
+  background: radial-gradient(ellipse at 51% 49%, rgba(31, 149, 231, 0.29), transparent 57%), linear-gradient(144deg, #111e38, #0e1b31);
+}
+.about-blob-back {
+  border-color: rgba(151, 225, 255, 0.42);
+  background: radial-gradient(ellipse at 37% 27%, rgba(141, 226, 255, 0.88), rgba(42, 151, 231, 0.78) 40%, rgba(15, 91, 187, 0.82) 78%);
+  box-shadow: 0 0 54px rgba(42, 169, 241, 0.29), inset -15px -13px 35px rgba(8, 49, 115, 0.36);
+}
+.about-blob-front,
+.about-stamp {
+  border-color: rgba(175, 237, 255, 0.58);
+}
+.doodle-star,
+.about-stamp b,
+.github-circle {
+  color: #a3eaff;
+}
+.profile-photo {
+  border-color: rgba(183, 239, 255, 0.8);
+  box-shadow: 0 0 0 8px rgba(47, 182, 247, 0.12), 0 16px 35px rgba(0, 0, 0, 0.28);
+}
+.about-art:hover .profile-photo {
+  box-shadow: 0 0 0 8px rgba(47, 182, 247, 0.2), 0 20px 42px rgba(0, 0, 0, 0.34);
+}
+.contact-section {
+  background: radial-gradient(ellipse at center, rgba(20, 131, 224, 0.25), transparent 61%), linear-gradient(108deg, #091323, #0b2441 51%, #081b2d);
+}
+.contact-inner h2 > span {
+  background: linear-gradient(105deg, #78d9ff, #4daeff 53%, #9bedff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.contact-spark,
+.back-top > span {
+  color: #82dcff;
+  text-shadow: 0 0 21px rgba(81, 205, 255, 0.62);
+}
+.contact-orb-left,
+.contact-orb-right {
+  border-color: rgba(91, 203, 255, 0.2);
+  background: radial-gradient(circle at 36% 31%, rgba(62, 182, 246, 0.2), transparent 58%);
+}
 .site-footer {
   min-height: 72px;
   width: min(1136px, calc(100% - 64px));

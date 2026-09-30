@@ -17,8 +17,8 @@
   --muted: #949bb5;
   --subtle: #69728f;
   --line: rgba(185, 194, 236, 0.12);
-  --violet: #ad92ff;
-  --blue: #70b7ff;
+  --violet: #4cb8ff;
+  --blue: #77ddff;
   --mono: "DM Mono", monospace;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 ::selection {
   color: #080b16;
-  background: #b9a4ff;
+  background: #6dd4ff;
 }
 a {
   color: inherit;
@@ -49,7 +49,7 @@ button {
 }
 button:focus-visible,
 a:focus-visible {
-  outline: 2px solid #b9a4ff;
+  outline: 2px solid #6dd4ff;
   outline-offset: 4px;
 }
 @media (prefers-reduced-motion: reduce) {
