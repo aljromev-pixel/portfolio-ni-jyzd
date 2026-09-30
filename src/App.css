@@ -1832,6 +1832,109 @@
   border-color: rgba(91, 203, 255, 0.2);
   background: radial-gradient(circle at 36% 31%, rgba(62, 182, 246, 0.2), transparent 58%);
 }
+.wordmark-icon {
+  border-color: rgba(154, 146, 255, 0.46);
+  background: linear-gradient(145deg, rgba(84, 128, 255, 0.22), rgba(169, 119, 255, 0.13));
+}
+.wordmark-last {
+  color: #bda5ff;
+}
+.nav-links .nav-contact {
+  border-color: rgba(154, 164, 255, 0.34);
+  background: linear-gradient(110deg, rgba(45, 134, 239, 0.16), rgba(161, 110, 255, 0.12));
+}
+.hero-glow-one {
+  background: rgba(99, 106, 255, 0.18);
+}
+.hero-glow-two {
+  background: rgba(53, 194, 255, 0.14);
+}
+.hero-copy h1 > span,
+.section-heading h2 > span,
+.about-copy h2 > span {
+  background: linear-gradient(105deg, #8ddcff 6%, #719dff 48%, #c6a3ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.primary-button {
+  border-color: rgba(172, 160, 255, 0.4);
+  background: linear-gradient(108deg, #1a69ca 0%, #3377e1 48%, #9366dd 100%);
+  box-shadow: 0 5px 23px rgba(87, 103, 237, 0.25);
+}
+.primary-button:hover {
+  box-shadow: 0 8px 27px rgba(112, 113, 250, 0.4);
+}
+.art-sun {
+  background: radial-gradient(circle at 37% 32%, rgba(181, 235, 255, 0.9), rgba(85, 149, 247, 0.82) 31%, rgba(71, 91, 210, 0.78) 59%, rgba(128, 88, 206, 0.75) 80%, rgba(79, 209, 241, 0.86));
+  box-shadow: 0 0 42px rgba(114, 120, 255, 0.32), inset -15px -20px 42px rgba(21, 36, 106, 0.3), inset 9px 8px 24px rgba(196, 229, 255, 0.33);
+}
+.art-ring,
+.art-ring-three {
+  border-color: rgba(182, 169, 255, 0.46);
+}
+.art-ring-two {
+  border-color: rgba(100, 213, 255, 0.48);
+}
+.art-orbit {
+  background: #d8c7ff;
+  box-shadow: 0 0 16px 4px rgba(135, 116, 255, 0.76);
+}
+.orbit-two {
+  background: #a7eaff;
+  box-shadow: 0 0 13px 4px rgba(107, 216, 255, 0.8);
+}
+.scroll-line::after,
+.hero-bottom-glow {
+  background: linear-gradient(90deg, #4cb9ff, #b08dff, #71e5ff);
+}
+.project-card:hover,
+.project-card:focus-within {
+  border-color: rgba(153, 158, 255, 0.5);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.24), 0 0 27px rgba(125, 107, 237, 0.18);
+}
+.project-type > span,
+.projects-footnote i {
+  background: linear-gradient(135deg, #5dcaff, #b191ff);
+  color: #b9a1ff;
+  box-shadow: 0 0 8px rgba(136, 123, 255, 0.46);
+}
+.project-link,
+.about-github > svg {
+  color: #a7c9ff;
+}
+.about-art {
+  background: radial-gradient(ellipse at 51% 49%, rgba(111, 81, 225, 0.29), transparent 57%), linear-gradient(144deg, #121d3a, #171631);
+}
+.about-blob-back {
+  border-color: rgba(193, 171, 255, 0.46);
+  background: radial-gradient(ellipse at 37% 27%, rgba(151, 229, 255, 0.88), rgba(65, 133, 237, 0.76) 38%, rgba(120, 73, 204, 0.82) 78%);
+  box-shadow: 0 0 54px rgba(103, 100, 239, 0.31), inset -15px -13px 35px rgba(35, 31, 112, 0.38);
+}
+.profile-photo {
+  border-color: rgba(205, 193, 255, 0.82);
+  box-shadow: 0 0 0 8px rgba(126, 111, 246, 0.14), 0 16px 35px rgba(0, 0, 0, 0.28);
+}
+.about-art:hover .profile-photo {
+  box-shadow: 0 0 0 8px rgba(126, 111, 246, 0.22), 0 20px 42px rgba(0, 0, 0, 0.34);
+}
+.contact-section {
+  background: radial-gradient(ellipse at center, rgba(92, 73, 200, 0.24), transparent 61%), linear-gradient(108deg, #091323, #16235a 51%, #211542);
+}
+.contact-inner h2 > span {
+  background: linear-gradient(105deg, #85ddff, #7598ff 53%, #c4a0ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.contact-spark,
+.back-top > span {
+  color: #c3abff;
+  text-shadow: 0 0 21px rgba(159, 126, 255, 0.62);
+}
+.contact-orb-left,
+.contact-orb-right {
+  border-color: rgba(149, 140, 255, 0.24);
+  background: radial-gradient(circle at 36% 31%, rgba(93, 132, 249, 0.2), rgba(163, 102, 255, 0.08) 48%, transparent 64%);
+}
 .site-footer {
   min-height: 72px;
   width: min(1136px, calc(100% - 64px));
@@ -2217,5 +2320,56 @@
   }
   .projects-footnote > span:last-child {
     font-size: 6px;
+  }
+}
+
+/* Larger supporting text for easier reading across the portfolio. */
+.nav-links {
+  font-size: 13px;
+}
+.availability,
+.eyebrow,
+.project-type,
+.tag-list span,
+.projects-footnote,
+.footer-year,
+.back-top {
+  font-size: 10px;
+}
+.hero-description {
+  font-size: 16px;
+}
+.hero-interests > span,
+.hero-interests > div,
+.section-heading > p,
+.project-details > p,
+.about-copy > p,
+.contact-inner > p {
+  font-size: 12px;
+}
+.project-details h3 {
+  font-size: 19px;
+}
+.project-link,
+.about-github,
+.about-favorites > div > span,
+.footer-note {
+  font-size: 11px;
+}
+
+@media (max-width: 640px) {
+  .hero-description {
+    font-size: 14px;
+  }
+  .hero-interests > span,
+  .hero-interests > div,
+  .section-heading > p,
+  .project-details > p,
+  .about-copy > p,
+  .contact-inner > p {
+    font-size: 11px;
+  }
+  .project-details h3 {
+    font-size: 18px;
   }
 }
