@@ -303,7 +303,7 @@ function App() {
         <nav className="nav-shell" aria-label="Main navigation">
           <a className="wordmark" href="#home">
             <span className="wordmark-icon">
-              a<span>.</span>
+              A<span>.</span>
             </span>
             <span>
               aljrome<span className="wordmark-last">v</span>
