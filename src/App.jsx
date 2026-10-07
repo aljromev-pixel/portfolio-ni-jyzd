@@ -302,9 +302,6 @@ function App() {
       <header className="site-header">
         <nav className="nav-shell" aria-label="Main navigation">
           <a className="wordmark" href="#home">
-            <span className="wordmark-icon">
-              A<span>.</span>
-            </span>
             <span>
               aljrome<span className="wordmark-last">v</span>
             </span>
@@ -376,63 +373,6 @@ function App() {
                   <i /> <span>Digital art</span>
                   <i /> <span>Everything new</span>
                 </div>
-              </div>
-            </div>
-            <div
-              className="hero-art"
-              aria-label="Abstract blue and violet digital composition"
-              role="img"
-            >
-              <div className="profile-panel">
-                <div className="profile-panel-topbar">
-                  <div className="panel-window-dots"><i /><i /><i /></div>
-                  <span>PROFILE / 001</span>
-                  <span className="panel-status"><i /> AVAILABLE</span>
-                </div>
-                <div className="profile-panel-body">
-                  <div className="profile-initials">AV<span>.</span></div>
-                  <div className="profile-panel-intro">
-                    <span className="panel-label">COMPUTER SCIENCE STUDENT</span>
-                    <h2>Curious by nature.<br /><span>Developer in progress.</span></h2>
-                    <p>Learning through thoughtful design and practical projects.</p>
-                  </div>
-                </div>
-                <div className="profile-panel-footer">
-                  <span>FOCUS AREAS</span>
-                  <div><i>Frontend</i><i>Laravel</i><i>Digital art</i></div>
-                  <span className="panel-footer-mark">01 — 03</span>
-                </div>
-              </div>
-              <div className="art-frame">
-                <div className="art-grid" />
-                <div className="art-sun" />
-                <div className="art-ring art-ring-one" />
-                <div className="art-ring art-ring-two" />
-                <div className="art-ring art-ring-three" />
-                <div className="art-orbit orbit-one" />
-                <div className="art-orbit orbit-two" />
-                <div className="art-orbit orbit-three" />
-                <div className="art-star star-one">✳</div>
-                <div className="art-star star-two">✳</div>
-                <div className="art-star star-three">✳</div>
-                <div className="art-caption">
-                  A LITTLE BIT OF
-                  <br />
-                  <span>IMAGINATION</span>
-                </div>
-                <div className="art-side-note">DESIGN · CODE · REPEAT</div>
-              </div>
-              <div className="floating-note">
-                <span className="note-icon">✎</span>
-                <span>
-                  making things
-                  <br />
-                  <strong>one idea at a time</strong>
-                </span>
-              </div>
-              <div className="art-counter">
-                <span>FIG. 001</span>
-                <i />
               </div>
             </div>
             <a className="scroll-hint" href="#projects">
@@ -571,9 +511,6 @@ function App() {
 
       <footer className="site-footer">
         <a className="wordmark footer-wordmark" href="#home">
-          <span className="wordmark-icon">
-            a<span>.</span>
-          </span>
           <span>
             aljrome<span className="wordmark-last">v</span>
           </span>
