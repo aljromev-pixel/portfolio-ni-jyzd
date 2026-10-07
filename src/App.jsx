@@ -383,6 +383,26 @@ function App() {
               aria-label="Abstract blue and violet digital composition"
               role="img"
             >
+              <div className="profile-panel">
+                <div className="profile-panel-topbar">
+                  <div className="panel-window-dots"><i /><i /><i /></div>
+                  <span>PROFILE / 001</span>
+                  <span className="panel-status"><i /> AVAILABLE</span>
+                </div>
+                <div className="profile-panel-body">
+                  <div className="profile-initials">AV<span>.</span></div>
+                  <div className="profile-panel-intro">
+                    <span className="panel-label">COMPUTER SCIENCE STUDENT</span>
+                    <h2>Curious by nature.<br /><span>Developer in progress.</span></h2>
+                    <p>Learning through thoughtful design and practical projects.</p>
+                  </div>
+                </div>
+                <div className="profile-panel-footer">
+                  <span>FOCUS AREAS</span>
+                  <div><i>Frontend</i><i>Laravel</i><i>Digital art</i></div>
+                  <span className="panel-footer-mark">01 — 03</span>
+                </div>
+              </div>
               <div className="art-frame">
                 <div className="art-grid" />
                 <div className="art-sun" />
