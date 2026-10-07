@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;450;500;550;600;650;700;750;800&family=Outfit:wght@400;450;500;550;600;650;700;750&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;650;700;750;800&display=swap");
 
 :root {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #e8ebf7;
   background: #080b16;
   font-synthesis: none;
@@ -20,6 +20,7 @@
   --violet: #ab8dff;
   --blue: #77ddff;
   --mono: "DM Mono", monospace;
+  --display: "Manrope", sans-serif;
 }
 
 *,
