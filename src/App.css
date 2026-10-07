@@ -5,12 +5,12 @@
 }
 
 .site-header {
-  height: 76px;
+  height: 72px;
   position: sticky;
   z-index: 20;
   top: 0;
   border-bottom: 1px solid rgba(194, 202, 239, 0.09);
-  background: rgba(8, 11, 22, 0.84);
+  background: rgba(8, 11, 22, 0.92);
   backdrop-filter: blur(18px);
 }
 .nav-shell {
@@ -38,7 +38,7 @@
   place-items: center;
   position: relative;
   border: 1px solid rgba(170, 146, 255, 0.36);
-  border-radius: 10px;
+  border-radius: 9px;
   background: linear-gradient(
     145deg,
     rgba(146, 116, 255, 0.15),
@@ -147,11 +147,11 @@
   position: relative;
   width: min(1040px, calc(100% - 64px));
   margin: 0 auto;
-  padding-top: 116px;
+  padding-top: 103px;
   display: grid;
   grid-template-columns: 1fr 435px;
   align-items: center;
-  column-gap: 32px;
+  column-gap: 42px;
 }
 .hero-copy {
   align-self: start;
@@ -190,7 +190,7 @@
   font-size: clamp(45px, 5vw, 63px);
   font-weight: 500;
   line-height: 1.12;
-  letter-spacing: -2.8px;
+  letter-spacing: -2.2px;
 }
 .hero-copy h1 > span,
 .section-heading h2 > span,
@@ -225,7 +225,7 @@
   gap: 11px;
   padding: 0 15px;
   border: 1px solid rgba(193, 177, 255, 0.3);
-  border-radius: 7px;
+  border-radius: 8px;
   background: linear-gradient(108deg, #8169d7 0%, #6176df 52%, #4d9cdd 100%);
   color: #fff;
   font-size: 11px;
@@ -596,7 +596,7 @@
 }
 
 .projects-section {
-  padding: 81px 0 70px;
+  padding: 76px 0 68px;
   background: linear-gradient(180deg, #0a0d19 0%, #0b0e19 100%);
 }
 .section-shell,
@@ -640,19 +640,19 @@
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 19px;
+  gap: 20px;
 }
 .project-card {
   min-width: 0;
   overflow: hidden;
   border: 1px solid rgba(192, 202, 239, 0.12);
-  border-radius: 9px;
+  border-radius: 12px;
   background: linear-gradient(
     180deg,
     rgba(22, 27, 46, 0.95),
     rgba(16, 20, 35, 0.98)
   );
-  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.16);
   transition:
     transform 0.27s ease,
     border-color 0.27s ease,
@@ -666,7 +666,7 @@
     0 0 27px rgba(121, 113, 224, 0.06);
 }
 .project-visual {
-  height: 211px;
+  height: 220px;
   position: relative;
   overflow: hidden;
   background: #131a2c;
@@ -1280,7 +1280,7 @@
   background: #7caeff;
 }
 .project-details {
-  padding: 15px 15px 16px;
+  padding: 18px 17px 18px;
 }
 .project-type {
   display: flex;
@@ -1309,7 +1309,7 @@
   margin: 7px 0 12px;
   color: #929ab1;
   font-size: 10px;
-  line-height: 1.78;
+  line-height: 1.75;
 }
 .tag-list {
   display: flex;
@@ -1370,7 +1370,7 @@
   grid-template-columns: 0.83fr 1.17fr;
   overflow: hidden;
   border: 1px solid rgba(192, 201, 239, 0.14);
-  border-radius: 12px;
+  border-radius: 14px;
   background: linear-gradient(
     111deg,
     rgba(24, 27, 49, 0.97),
@@ -1613,6 +1613,52 @@
     ),
     linear-gradient(108deg, #0b0f1d, #111329 51%, #0b1121);
   text-align: center;
+}
+
+/* Quiet refinements that keep the original midnight, violet, and cyan palette. */
+.nav-links {
+  gap: 31px;
+}
+.nav-links .nav-contact {
+  border-radius: 8px;
+}
+.hero-section {
+  background: linear-gradient(111deg, #090d1a 2%, #0a0d1a 45%, #0b1021 100%);
+}
+.hero-art .art-frame {
+  border-radius: 12px;
+}
+.project-card {
+  background: linear-gradient(180deg, rgba(22, 27, 46, 0.97), rgba(16, 20, 35, 0.99));
+}
+.project-card:hover,
+.project-card:focus-within {
+  transform: translateY(-3px);
+}
+.tag-list span,
+.about-favorites > div > span {
+  border-radius: 999px;
+}
+.about-card {
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.14);
+}
+.contact-section {
+  min-height: 320px;
+}
+.site-footer {
+  min-height: 78px;
+}
+
+@media (max-width: 640px) {
+  .hero-inner {
+    padding-top: 56px;
+  }
+  .projects-section {
+    padding-top: 52px;
+  }
+  .project-visual {
+    height: auto;
+  }
 }
 .contact-section::before,
 .contact-section::after {
