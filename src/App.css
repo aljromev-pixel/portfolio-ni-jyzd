@@ -1663,13 +1663,24 @@
 
 /* Replace the orbital hero illustration with a restrained profile panel. */
 .hero-art {
-  display: grid;
-  place-items: center;
-  transform: none;
+  display: none;
 }
 
-.hero-art > :not(.profile-panel) {
-  display: none;
+.hero-inner {
+  grid-template-columns: minmax(0, 760px);
+  align-content: center;
+}
+
+.hero-copy {
+  max-width: 700px;
+}
+
+.hero-copy h1 {
+  max-width: 660px;
+}
+
+.wordmark {
+  gap: 0;
 }
 
 .profile-panel {
@@ -2994,9 +3005,10 @@ button {
 
 @media (max-width: 640px) {
   .hero-art {
-    width: min(410px, 100%);
-    height: auto;
-    margin: 34px auto 10px;
-    transform: none;
+    display: none;
+  }
+
+  .hero-inner {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
