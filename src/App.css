@@ -1660,6 +1660,390 @@
     height: auto;
   }
 }
+
+/* Professional portfolio styling: preserve the established color palette. */
+:root {
+  --page-width: 1120px;
+}
+
+body,
+button {
+  font-family: "Manrope", sans-serif;
+}
+
+.site-header {
+  height: 70px;
+  background: rgba(8, 11, 22, 0.96);
+  border-bottom-color: rgba(185, 194, 236, 0.1);
+}
+
+.nav-shell,
+.site-footer {
+  width: min(var(--page-width), calc(100% - 72px));
+}
+
+.wordmark {
+  font-size: 13px;
+  letter-spacing: 0.1px;
+}
+
+.wordmark-icon {
+  border-radius: 8px;
+}
+
+.nav-links {
+  gap: 30px;
+  font-size: 12px;
+}
+
+.nav-links .nav-contact {
+  padding: 9px 13px;
+  border-radius: 6px;
+}
+
+.hero-section {
+  min-height: 570px;
+}
+
+.hero-section::before {
+  opacity: 0.1;
+}
+
+.hero-inner {
+  width: min(var(--page-width), calc(100% - 72px));
+  min-height: 540px;
+  grid-template-columns: minmax(0, 1fr) 420px;
+  column-gap: 54px;
+  padding-top: 76px;
+  padding-bottom: 50px;
+}
+
+.availability {
+  margin-bottom: 21px;
+  border-radius: 999px;
+  padding: 7px 11px;
+  font-size: 9px;
+  letter-spacing: 0.8px;
+}
+
+.hero-copy h1,
+.section-heading h2,
+.about-copy h2,
+.contact-inner h2 {
+  font-family: var(--display);
+  font-weight: 650;
+  letter-spacing: -2.1px;
+}
+
+.hero-copy h1 {
+  max-width: 560px;
+  font-size: clamp(48px, 5.2vw, 66px);
+  line-height: 1.08;
+}
+
+.hero-description {
+  max-width: 465px;
+  margin-top: 21px;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.hero-actions {
+  gap: 18px;
+  margin-top: 27px;
+}
+
+.primary-button {
+  min-height: 44px;
+  padding: 0 17px;
+  border-radius: 6px;
+  font-size: 12px;
+  box-shadow: 0 7px 22px rgba(96, 103, 219, 0.12);
+}
+
+.secondary-button {
+  font-size: 12px;
+}
+
+.hero-interests {
+  gap: 11px;
+  margin-top: 34px;
+}
+
+.hero-art {
+  max-width: 420px;
+  transform: scale(0.97);
+}
+
+.art-frame {
+  width: 345px;
+  height: 310px;
+  right: 27px;
+  border-radius: 5px;
+  transform: none;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.25);
+}
+
+.floating-note {
+  border-radius: 7px;
+}
+
+.scroll-hint {
+  bottom: 13px;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.projects-section {
+  padding: 78px 0 74px;
+  background: #0a0d19;
+}
+
+.section-shell,
+.about-shell {
+  width: min(var(--page-width), calc(100% - 72px));
+}
+
+.section-heading {
+  align-items: end;
+  margin-bottom: 30px;
+}
+
+.eyebrow {
+  gap: 9px;
+  letter-spacing: 1px;
+}
+
+.eyebrow > span {
+  min-width: 24px;
+  height: 24px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid rgba(171, 141, 255, 0.24);
+  border-radius: 50%;
+  background: rgba(171, 141, 255, 0.06);
+  font-size: 9px;
+}
+
+.section-heading h2,
+.about-copy h2 {
+  margin-top: 15px;
+  font-size: clamp(35px, 4vw, 44px);
+  letter-spacing: -1.6px;
+}
+
+.section-heading > p {
+  line-height: 1.8;
+}
+
+.project-grid {
+  gap: 18px;
+}
+
+.project-card {
+  border-radius: 8px;
+  border-color: rgba(185, 194, 236, 0.13);
+  background: #101423;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.project-visual {
+  height: 205px;
+  background: #12182a;
+}
+
+.project-visual-link {
+  border-radius: 5px;
+}
+
+.project-index {
+  padding: 6px 8px;
+  border: 1px solid rgba(227, 226, 247, 0.13);
+  border-radius: 4px;
+  background: rgba(8, 11, 22, 0.72);
+}
+
+.project-details {
+  padding: 18px 18px 19px;
+}
+
+.project-type {
+  font-size: 9px;
+}
+
+.project-details h3 {
+  margin-top: 11px;
+  font-family: var(--display);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+}
+
+.project-details > p {
+  min-height: 78px;
+  margin: 9px 0 14px;
+  font-size: 11px;
+  line-height: 1.75;
+}
+
+.tag-list {
+  gap: 6px;
+}
+
+.tag-list span {
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: rgba(171, 141, 255, 0.06);
+  font-size: 9px;
+}
+
+.project-link {
+  margin-top: 17px;
+  font-size: 11px;
+}
+
+.projects-footnote {
+  margin-top: 22px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(185, 194, 236, 0.1);
+}
+
+.about-section {
+  padding: 56px 0 76px;
+  background: #0b0e19;
+}
+
+.about-card {
+  min-height: 360px;
+  grid-template-columns: 0.78fr 1.22fr;
+  border-radius: 8px;
+  border-color: rgba(185, 194, 236, 0.14);
+  background: #101423;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.17);
+}
+
+.about-art {
+  min-height: 360px;
+}
+
+.about-copy {
+  padding: 39px 42px 34px;
+}
+
+.about-copy h2 {
+  margin: 15px 0 18px;
+}
+
+.about-copy > p {
+  max-width: 560px;
+  font-size: 12px;
+  line-height: 1.85;
+}
+
+.about-favorites {
+  margin-top: 22px;
+}
+
+.about-favorites > div > span {
+  border-radius: 4px;
+}
+
+.about-github {
+  margin-top: 21px;
+  padding-top: 16px;
+  border-top-color: rgba(185, 194, 236, 0.11);
+}
+
+.contact-section {
+  min-height: 305px;
+  background: radial-gradient(ellipse at center, rgba(92, 73, 200, 0.18), transparent 62%), #0b0e19;
+}
+
+.contact-inner h2 {
+  margin-top: 15px;
+  font-size: clamp(36px, 4.2vw, 46px);
+  line-height: 1.14;
+}
+
+.contact-inner > p {
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.site-footer {
+  min-height: 78px;
+  border-top: 1px solid rgba(185, 194, 236, 0.08);
+}
+
+@media (max-width: 850px) {
+  .hero-inner {
+    grid-template-columns: minmax(0, 1fr) 360px;
+    column-gap: 18px;
+    padding-top: 87px;
+  }
+
+  .hero-copy h1 {
+    font-size: 50px;
+  }
+
+  .project-visual {
+    height: 184px;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-shell,
+  .site-footer,
+  .hero-inner,
+  .section-shell,
+  .about-shell {
+    width: calc(100% - 40px);
+  }
+
+  .site-header {
+    height: 64px;
+  }
+
+  .nav-links {
+    background: rgba(8, 11, 22, 0.98);
+  }
+
+  .hero-inner {
+    padding-top: 49px;
+    padding-bottom: 60px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(43px, 11.5vw, 58px);
+    letter-spacing: -1.7px;
+  }
+
+  .hero-art {
+    transform: scale(0.84);
+  }
+
+  .section-heading h2,
+  .about-copy h2 {
+    font-size: 35px;
+  }
+
+  .about-card {
+    grid-template-columns: 1fr;
+  }
+
+  .about-art {
+    min-height: 253px;
+  }
+
+  .about-copy {
+    padding: 28px 22px 23px;
+  }
+
+  .contact-inner h2 {
+    font-size: 36px;
+  }
+}
 .contact-section::before,
 .contact-section::after {
   position: absolute;
